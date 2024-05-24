@@ -1,0 +1,22 @@
+Para criar um componente, abrir o terminal
+
+digite: ng generate component componentes/container
+onde: componentes (pasta) e container (nome do componente)
+
+forma simplificada: ng g c componentes/contato
+
+
+No arquivo container.component.ts é possível ver o nome do compoente:
+export class ContainerComponent {
+
+}
+
+No arquivo app.component.ts - Adicionar o componente
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, RouterOutlet, ContainerComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+
