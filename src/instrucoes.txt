@@ -1,12 +1,12 @@
 Para criar um componente, abrir o terminal
-
+==========================================
 digite: ng generate component componentes/container
 onde: componentes (pasta) e container (nome do componente)
 
 forma simplificada: ng g c componentes/contato
 
 
-No arquivo container.component.ts é possível ver o nome do compoente:
+No arquivo container.component.ts é possível ver o nome do componente:
 export class ContainerComponent {
 
 }
@@ -19,4 +19,12 @@ No arquivo app.component.ts - Adicionar o componente
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
+
+Para executar esse projeto e subir essa aplicação:
+==================================================
+ng serve
+
+Para acessar:
+http://localhost:4200/
 
