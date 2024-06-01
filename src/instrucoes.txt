@@ -28,3 +28,43 @@ ng serve
 Para acessar:
 http://localhost:4200/
 
+
+
+
+A classe Validators no Angular
+==============================
+Abaixo estão alguns dos principais métodos dessa classe:
+
+1 - required:
+Descrição: garante que um campo seja preenchido.
+Uso: Validators.required
+
+2 - minLength:
+Descrição: especifica o comprimento mínimo de uma string.
+Uso: Validators.minLength(min: number)
+
+3 - maxLength:
+Descrição: especifica o comprimento máximo de uma string.
+Uso: Validators.maxLength(max: number)
+
+4 - pattern:
+Descrição: aplica uma expressão regular para validar o formato de uma string.
+Uso: Validators.pattern(pattern: string | RegExp)
+
+5 - email:
+Descrição: verifica se um campo contém um endereço de e-mail válido.
+Uso: Validators.email
+
+6 - min:
+Descrição: define um valor mínimo para campos numéricos.
+Uso: Validators.min(min: number)
+
+7 - max:
+Descrição: define um valor máximo para campos numéricos.
+Uso: Validators.max(max: number)
+
+8 - nullValidator:
+Descrição: um validador nulo, que pode ser útil para desabilitar outros validadores temporariamente.
+Uso: Validators.nullValidator
+
+
