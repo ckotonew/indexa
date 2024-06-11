@@ -30,6 +30,13 @@ http://localhost:4200/
 
 
 
+Para subir servidor JSON-Server:
+================================
+npm start
+
+Para acessar:
+http://localhost:3000/contatos
+
 
 A classe Validators no Angular
 ==============================
