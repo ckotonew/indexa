@@ -37,8 +37,8 @@ export class ListaContatosComponent implements OnInit{
   constructor(private contatoService: ContatoService) {}
 
   ngOnInit() {
-    this.contatoService.obterContatos().subscribe(ListaContatos => {
-      this.contatos = ListaContatos;
+    this.contatoService.obterContatos().subscribe(listaContatos => {
+      this.contatos = listaContatos;
     });
   }
 
